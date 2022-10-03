@@ -1,4 +1,6 @@
-import Filters from "../components/characters/filters.component";
+import React from 'react';
+
+import Filters from "../components/characters/filters.components";
 import GridCharacters from "../components/characters/grid-characters.component";
 import Pagination from "../components/pagination/pagination.component";
 import { fetchCharactersThunk } from "../actions/characters.actions";

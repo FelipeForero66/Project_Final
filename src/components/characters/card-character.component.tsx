@@ -1,3 +1,4 @@
+import React from 'react';
 import { FC } from "react";
 import Character from "../../types/character.types";
 import FavoriteButton from "../buttons/button-favorite-component";

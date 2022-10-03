@@ -1,3 +1,4 @@
+import React from 'react';
 import { FC } from "react";
 import { IRootState } from "../../store/store";
 import Character from "../../types/character.types";

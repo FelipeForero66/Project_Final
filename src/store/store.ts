@@ -9,9 +9,9 @@ import {
   useSelector as useReduxSelector,
 } from "react-redux";
 import thunk from "redux-thunk";
-import charactersReducer from "../reducers/characters.reducer";
+import charactersReducer from "../reducers/character.reducer";
 import episodesReducer from "../reducers/episodes.reducer";
-import favoritesReducer from "../reducers/favorites.reducer";
+import favoritesReducer from "../reducers/favorite.reducer";
 
 const rootReducer = combineReducers({
   characters: charactersReducer,
